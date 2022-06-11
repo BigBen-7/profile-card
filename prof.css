@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace sans-serif;
+  line-height: 1.4;
+
+  background-color: darkolivegreen;
+}
+.profile {
+  max-width: 18rem;
+  width: 80%;
+  margin: 1rem auto;
+  background-color: rgb(30, 41, 59);
+  border-radius: 0.75rem;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+img {
+  width: 6rem;
+  height: 6rem;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  left: -1.5rem;
+}
+.profile-desc {
+  display: flex;
+  flex-direction: column;
+  padding: 1.28rem 0 1.28rem 6.7rem;
+}
+
+.name {
+  color: rgb(226, 223, 240);
+  letter-spacing: 1rem;
+}
+.position {
+  color: rgb(148, 163, 184);
+  letter-spacing: 0.5rem;
+  font-weight: lighter;
+  font-family: cursive;
+}
